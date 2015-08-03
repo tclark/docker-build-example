@@ -7,6 +7,7 @@ RUN apt-get -y install apache2
 RUN apt-get -y install supervisor
 
 COPY supervisord.conf /etc/supervisor/conf.d/supervisord.conf
+COPY foo /etc/foo
 
 EXPOSE 22 80
 
