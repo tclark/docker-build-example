@@ -1,5 +1,4 @@
 FROM ubuntu:18.04
-MAINTAINER Tom Clark <tom.clark@op.ac.nz>
 
 RUN apt-get update && apt-get -y dist-upgrade
 RUN apt-get -y install openssh-server
